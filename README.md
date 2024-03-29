@@ -11,19 +11,18 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
   - [Workflow](#workflow)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
 - [Author](#author)
 
 ## Overview
 
 ### Result
 
-![Screenshot](./assets/images/final-page-screenshot.png)
+![Screenshot](./assets/images/blog-preview-card-final-screenshot.png)
 
 ### Links
 
-- Solution URL: https://www.frontendmentor.io/solutions/responsive-omelette-recipe-page-06WV7XtcbW
-- Live Site URL: https://solo-incrementing.github.io/recipe-page/
+- Solution URL: URL
+- Live Site URL: URL
 
 ## My process
 
@@ -38,26 +37,33 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Desktop-first workflow
+- Mobile-first workflow
 
 ### What I learned
 
-You can implement a separator line between table row elements using a bottom border on the table rows and marking the border-collapse property for the table to collapse to ensure the border can be seen.
+The clamp css function combined with viewport width unit allows us to create responsive components without needing media queries
 
 ```css
-table {
-	width: 100%;
-	border-collapse: collapse;
+.card {
+	width: clamp(327px, 30vw, 384px);
 }
 
-tr {
-	border-bottom: 1px solid var(--primary-accent-color);
+.card-content__category {
+	font-size: clamp(12px, 2vw, 14px);
+}
+
+.card-content__publish-date {
+	font-size: clamp(12px, 2vw, 14px);
+}
+
+.card-content__title {
+	font-size: clamp(20px, 2vw, 24px);
+}
+
+.card-content__description {
+	font-size: clamp(14px, 2vw, 16px);
 }
 ```
-
-### Continued development
-
-I want to utilise the BEM convention for writing css classes in slightly larger projects
 
 ## Author
 
