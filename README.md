@@ -21,8 +21,8 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ### Links
 
-[Solution](https://www.frontendmentor.io/solutions/blog-preview-card-with-responsive-components-aIflixr2nX)
-[Live Site](https://solo-incrementing.github.io/blog-preview-card/)
+- [Solution](https://www.frontendmentor.io/solutions/blog-preview-card-with-responsive-components-aIflixr2nX)
+- [Live Site](https://solo-incrementing.github.io/blog-preview-card/)
 
 ## My process
 
