@@ -73,6 +73,10 @@ p {
 	font-size: clamp(20px, 2vw, 24px);
 }
 
+.card-content__title:hover {
+	color: var(--yellow);
+}
+
 .card-content__description {
 	color: var(--grey);
 	font-size: clamp(14px, 2vw, 16px);
